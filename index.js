@@ -6,7 +6,7 @@ const client = new Discord.Client({
         Discord.Intents.FLAGS.GUILD_MESSAGES
     ]
 });
-const { Prefix, Token, Color } = require("./config.js");
+//const { Prefix, Token, Color } = require("./config.js");
 client.commands = new Discord.Collection();
 client.aliases = new Discord.Collection();
 client.db = require("quick.db");
